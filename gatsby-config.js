@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'knowledgebase',
+    siteUrl: `https://knowledgebasemaster.gatsbyjs.io/`,
   },
+
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-gatsby-cloud',
@@ -9,6 +11,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-postcss',
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
